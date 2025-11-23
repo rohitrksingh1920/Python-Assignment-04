@@ -1,15 +1,15 @@
-# Examples Speed & Vectorization
-# import numpy as np
+# Examples
+import numpy as np
 
-# arr = np.array([1, 2, 3])
-# print(arr * 2)
+arr = np.array([1, 2, 3])
+print(arr * 2)
 
 
 # Example Multidimensional Arrays
-# import numpy as np
+import numpy as np
 
-# mat = np.array([[1, 2], [3, 4]])
-# print(mat)
+matrices = np.array([[1, 2], [3, 4]])
+print(matrices)
 
 
 # Create one-dimensional and two-dimensional arrays
@@ -30,3 +30,4 @@ print("Array:", arr2)
 print("Shape:", arr2.shape)
 print("Dimensions:", arr2.ndim)
 print("Data Type:", arr2.dtype)
+
